@@ -8,6 +8,7 @@ Flask‑based chatbot with HTML, CSS, and JavaScript frontend for customer suppo
 
 ## 📂 Project Structure
 project/
+
 │── static/
 
 │   ├── style.css
