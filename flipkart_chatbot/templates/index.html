@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anshu Mart Customer Support</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="chat-container">
+        <!-- header -->
+        <div class="chat-header">
+            <div class="logo">
+    <img src="static\Copilot_20260714_145728.png" alt="Robot Sticker" style="height: 30px; vertical-align: middle;">
+    Anshu Mart Customer Support
+            </div>
+            <div class="status">online</div>
+        </div>
+
+        <!-- chat message -->
+        <div class="chat-box" id="chat-box">
+            <div class="bot-message">
+                <strong>Bot</strong>
+                <p>hello</p>
+                <p>welcome to Anshu Mart</p>
+                <p>how can i help you today?</p>
+            </div>
+        </div>
+
+        <!-- input area -->
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+            <button id="send-btn">send</button>
+        </div>
+    </div>
+
+    <!-- javascript code -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
